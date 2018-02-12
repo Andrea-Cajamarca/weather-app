@@ -4,7 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-
+/// jsx into varible into component
 const BasicExample = () => (
   <Router>
     <div>
