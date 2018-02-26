@@ -4,6 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import WeeklyPage from "./WeeklyPage.js";
 /// jsx into varible into component
 const BasicExample = () => (
   <Router>
@@ -15,7 +16,7 @@ const BasicExample = () => (
 
       <hr/>
 
-      <Route exact path="/" component={Weekly}/>
+      <Route exact path="/" component={WeeklyPage}/>
       <Route path="/day" component={Daily}/>
     </div>
   </Router>
